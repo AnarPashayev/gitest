@@ -28,6 +28,8 @@ namespace LazyClass
         {
             Console.WriteLine("Etot kod DEv");
         }
+        static void MessageDevelop() { }
+
         static void Main(string[] args)
         {
             int num = 0;
@@ -35,6 +37,7 @@ namespace LazyClass
             Timer timer = new Timer(timerCallback, null, 2000, 1000);
             Message();
             MessageNetDevSolution();
+            MessageDevelop();
             Console.ReadLine();
         }
     }

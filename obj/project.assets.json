@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anar\\source\\repos\\LazyClass\\LazyClass\\LazyClass.csproj",
+      "projectUniqueName": "C:\\Users\\Anar\\source\\repos\\gitest\\LazyClass.csproj",
       "projectName": "LazyClass",
-      "projectPath": "C:\\Users\\Anar\\source\\repos\\LazyClass\\LazyClass\\LazyClass.csproj",
+      "projectPath": "C:\\Users\\Anar\\source\\repos\\gitest\\LazyClass.csproj",
       "packagesPath": "C:\\Users\\Anar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anar\\source\\repos\\LazyClass\\LazyClass\\obj\\",
+      "outputPath": "C:\\Users\\Anar\\source\\repos\\gitest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

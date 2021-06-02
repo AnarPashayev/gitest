@@ -20,11 +20,16 @@ namespace LazyClass
         {
             Console.WriteLine("Privet mir");
         }
+        static void Message()
+        {
+            Console.WriteLine("Etot kod Timer");
+        }
         static void Main(string[] args)
         {
             int num = 0;
             TimerCallback timerCallback = MyTime;//metod obratnogo vizova
             Timer timer = new Timer(timerCallback, null, 2000, 1000);
+            Message();
             Console.ReadLine();
         }
     }

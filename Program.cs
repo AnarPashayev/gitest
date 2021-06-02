@@ -24,12 +24,17 @@ namespace LazyClass
         {
             Console.WriteLine("Etot kod Timer");
         }
+        static void MessageNetDevSolution()
+        {
+            Console.WriteLine("Etot kod DEv");
+        }
         static void Main(string[] args)
         {
             int num = 0;
             TimerCallback timerCallback = MyTime;//metod obratnogo vizova
             Timer timer = new Timer(timerCallback, null, 2000, 1000);
             Message();
+            MessageNetDevSolution();
             Console.ReadLine();
         }
     }

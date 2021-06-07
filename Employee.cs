@@ -10,5 +10,12 @@ namespace LazyClass
     {
         public string Name { get; set; }
         public string Surname { get; set; }
+        public string Develop { get; set; }
+        public Employee(string n, string s, string d)
+        {
+            Name = n;
+            Surname = s;
+            Develop = d;
+        }
     }
 }

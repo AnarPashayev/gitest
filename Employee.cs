@@ -10,5 +10,6 @@ namespace LazyClass
     {
         public string Name { get; set; }
         public string Surname { get; set; }
+        public string CodeReg { get; set; }
     }
 }
